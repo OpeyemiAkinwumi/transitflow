@@ -140,7 +140,7 @@ nav {
 
 .hero-container {
   width: 80%;
-  height: 80%;
+  height: 85%;
   color: white;
   display: flex;
   flex-direction: column;
@@ -149,6 +149,7 @@ nav {
   margin: 0 auto;
 }
 .hero-container p {
+  font-size: 0.8rem;
   max-width: 600px;
   line-height: 30px;
 }
@@ -158,9 +159,9 @@ nav {
   padding: 5px 8px;
 }
 .hero-container h1 {
-  font-size: 6rem;
-  line-height: 90px;
-  margin: 20px 0;
+  font-size: 4rem;
+  line-height: 70px;
+  margin: 15px 0;
 }
 
 .hero-container button {
