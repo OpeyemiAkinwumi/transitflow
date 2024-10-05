@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #091242;
+  color: white;
+}
+
+.header-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.details {
+  width: 750px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+}
+.details p {
+  font-weight: 300;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: #1b276585;
+  border: 1px solid #828cc467;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  width: 100%;
+  height: 89vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.648),
+      rgba(0, 0, 0, 0.559)
+    ),
+    url(images/aerial-view-container-cargo-ship-sea.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #1c1f331b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.linkWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 40px; */
+  list-style: none;
+}
+.linkWrapper li {
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0 30px;
+}
+#first {
+  border: none;
+  padding-left: 0;
+}
+.linkWrapper li a {
+  color: white;
+  text-decoration: none;
+}
+
+.cta {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cta a {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+#request {
+  width: 150px;
+  background-color: white;
+  color: #091242;
+  font-weight: 600;
+  /* font-size: 1rem; */
+  margin-left: 30px;
+}
+
+.hero-container {
+  width: 80%;
+  height: 80%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+}
+.hero-container p {
+  max-width: 600px;
+  line-height: 30px;
+}
+#logic {
+  background-color: #09124289;
+  border-left: 4px solid #ffcd46;
+  padding: 5px 8px;
+}
+.hero-container h1 {
+  font-size: 6rem;
+  line-height: 90px;
+  margin: 20px 0;
+}
+
+.hero-container button {
+  width: 150px;
+  height: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 166, 0),
+    rgb(253, 233, 121)
+  );
+  border: none;
+  margin-top: 20px;
+  color: #091242;
+  font-weight: 700;
+}
